@@ -5,9 +5,9 @@
   }
 
 .bg-header {
-    background: rgb(255, 255, 255, 0.5);
     font-family: 'Sanchez', serif;
     font-weight: 400;
+    background: linear-gradient(to left, beige, white);
 }
 
 .headerBarraContacto {
@@ -101,4 +101,10 @@
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 991px) {
+    .bg-header {    
+        background: linear-gradient(to left, #ad8547 35%, rgba(255, 255, 255, 0) 35%);
+    }
 }
